@@ -1,12 +1,6 @@
 // CONTACT BUTTON
 
-const submitBtn = document.querySelector(".form-submit");
 
-submitBtn.addEventListener("click", () => {
-
-    alert("Message sent! I will get back to you soon.");
-
-});
 document.querySelector(".form-submit").addEventListener("click", () => {
   alert("Message sent! I will get back to you soon.");
 });
